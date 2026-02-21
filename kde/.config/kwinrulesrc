@@ -1,0 +1,27 @@
+[General]
+count=2
+rules=a29f00e3-47cd-445a-804a-c345f1b1921c,ae9693c1-2213-4c03-9415-5ad8ab054e2d
+
+[a29f00e3-47cd-445a-804a-c345f1b1921c]
+Description=Window settings for firefox
+above=true
+aboverule=2
+desktops=\\0
+desktopsrule=2
+position=1150,660
+positionrule=3
+title=Picture-in-Picture
+titlematch=1
+types=1
+wmclass=firefox
+wmclassmatch=1
+
+[ae9693c1-2213-4c03-9415-5ad8ab054e2d]
+Description=Window settings for Picture in picture
+aboverule=2
+desktops=\\0
+desktopsrule=2
+position=1380,750
+positionrule=3
+title=Picture in picture
+wmclassmatch=1
