@@ -1,13 +1,19 @@
 [Desktops]
-Id_1=4f9c704a-c3fd-484c-831b-864b2e2227f8
-Id_2=63efe6c3-e59a-4b3c-a763-beef7ffd6a57
+Id_1=63efe6c3-e59a-4b3c-a763-beef7ffd6a57
+Id_2=4f9c704a-c3fd-484c-831b-864b2e2227f8
 Id_3=01382a1a-d898-4551-a879-3b43f819739c
 Id_4=cede8840-875d-41e7-bfdd-34476ac67700
+Name_1=Desktop 2
+Name_2=Desktop 1
 Number=4
 Rows=1
 
 [Effect-better-blur-dx]
+BlurDecorations=true
+BlurDocks=true
+BlurMatching=false
 BlurMenus=true
+BlurNonMatching=true
 BlurStrength=6
 CornerRadius=16
 NoiseStrength=0

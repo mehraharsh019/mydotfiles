@@ -1,6 +1,6 @@
 [General]
-count=2
-rules=a29f00e3-47cd-445a-804a-c345f1b1921c,ae9693c1-2213-4c03-9415-5ad8ab054e2d
+count=3
+rules=a29f00e3-47cd-445a-804a-c345f1b1921c,d96ffd9a-3d10-479c-b1f6-72e853c45942,fa50cdf5-f6fd-49e5-bdf7-745dcd6705a7
 
 [a29f00e3-47cd-445a-804a-c345f1b1921c]
 Description=Window settings for firefox
@@ -16,12 +16,28 @@ types=1
 wmclass=firefox
 wmclassmatch=1
 
-[ae9693c1-2213-4c03-9415-5ad8ab054e2d]
-Description=Window settings for Picture in picture
+[d96ffd9a-3d10-479c-b1f6-72e853c45942]
+Description=Window settings for Librewolf
+above=true
 aboverule=2
 desktops=\\0
 desktopsrule=2
-position=1380,750
+position=1150,660
+positionrule=3
+title=Picture-in-Picture
+titlematch=1
+types=1
+wmclass=librewolf
+wmclassmatch=1
+
+[fa50cdf5-f6fd-49e5-bdf7-745dcd6705a7]
+Description=Pip for brave
+above=true
+aboverule=2
+desktops=\\0
+desktopsrule=2
+position=1280,660
 positionrule=3
 title=Picture in picture
+wmclass=brave
 wmclassmatch=1

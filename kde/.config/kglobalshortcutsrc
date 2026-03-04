@@ -284,6 +284,9 @@ toggle do not disturb=none,,Toggle do not disturb
 _launch=Meta+B
 new-private-window=Meta+Shift+B
 
+[services][com.mitchellh.ghostty.desktop]
+_launch=
+
 [services][firefox.desktop]
 _launch=Meta+B
 new-private-window=Meta+Shift+B
@@ -291,9 +294,8 @@ new-private-window=Meta+Shift+B
 [services][kitty.desktop]
 _launch=Meta+Return\tMeta+Alt+T
 
-[services][librewolf.desktop]
-_launch=Meta+B
-new-private-window=Meta+Shift+B
+[services][net.local.iwctl.desktop]
+_launch=Meta+Ctrl+Shift+R
 
 [services][org.kde.krunner.desktop]
 _launch=Search\tMeta+Space
